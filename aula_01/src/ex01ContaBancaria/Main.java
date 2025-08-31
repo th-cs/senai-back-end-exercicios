@@ -43,8 +43,8 @@ public class Main {
 					break;
 				case 4:
 					// Finaliza a execução
-					menu = false;
 					System.out.println("Saindo da conta...");
+					menu = false;
 					break;
 				default:
 					System.out.printf("'%d' não é uma opção válida\n",
