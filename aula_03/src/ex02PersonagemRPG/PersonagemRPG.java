@@ -29,6 +29,10 @@ public class PersonagemRPG {
 		}
 	}
 
+	public void setClasseAceita(boolean classe) {
+		this.classeAceita = classeAceita;
+	}
+
 	public void setNivel(int nivel) {
 		if (nivel > 0 && nivel <= 20) {
 			this.nivel = nivel;
@@ -39,6 +43,10 @@ public class PersonagemRPG {
 		}
 	}
 
+	public void setNivelAceito(boolean nivelAceito) {
+		this.nivelAceito = nivelAceito;
+	}
+
 	public void setVida(int vida) {
 		if (vida >= 0 && vida <= 100) {
 			this.vida = vida;
@@ -47,6 +55,10 @@ public class PersonagemRPG {
 			System.out.println("A vida do seu personagem deve ser um valor "
 				+ "entre 0 e 100\n");
 		}
+	}
+
+	public void setVidaAceita(boolean vidaAceita) {
+		this.vidaAceita = vidaAceita;
 	}
 
 	// Getters
