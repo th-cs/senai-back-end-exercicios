@@ -38,13 +38,15 @@ public class Main {
 
 			// Loop para conferir o nível
 			do {
-				System.out.print("Digite o nível do seu personagem: ");
+				System.out.print("Digite o nível do seu personagem (Intervalo: "
+					+ "1 - 20): ");
 				personagem01.setNivel(input.nextInt());
 			} while (!personagem01.getNivelAceito());
 
 			// Loop para conferir a vida
 			do {
-				System.out.print("Digite a vida do seu personagem: ");
+				System.out.print("Digite a vida do seu personagem (Intervalo: "
+					+ "0 - 100): ");
 				personagem01.setVida(input.nextInt());
 			} while (!personagem01.getVidaAceita());
 
