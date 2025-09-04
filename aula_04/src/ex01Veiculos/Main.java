@@ -1,5 +1,5 @@
 // Cria uma superclasse Veiculo e uma subclasse Carro que a estende. O método
-// iniciar() da classe Veículo é sobrescrito na classe Carro
+// iniciar() da classe Veiculo é sobrescrito na classe Carro
 package ex01Veiculos;
 
 public class Main {

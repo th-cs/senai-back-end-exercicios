@@ -1,4 +1,4 @@
-// Classe Veículo utilizada na classe Main
+// Classe Veiculo utilizada na classe Main
 // Superclasse da classe Carro
 package ex01Veiculos;
 
